@@ -23,8 +23,6 @@ function game(){
     
     let counter = 0;
     while (counter < 5 ){
-        // let user_input = parseInt(prompt("'Rock' \n 'Paper' \n 'Scissors' : "))
-        // let user_choise = choises[user_input]
         let user_choise = "Rock"
         let computer_choise = getComputerChoice()
 
