@@ -6,7 +6,6 @@
     <title>RPS</title>
     <link rel="icon" href="logo/icon.png">
     <link rel="stylesheet" href="CSS/final_result.css">
-    <link rel="stylesheet" href="CSS/resposive.css">
     <link rel="stylesheet" href="CSS/start_game.css">
     <link rel="stylesheet" href="CSS/styles.css">
     <style>
@@ -15,7 +14,7 @@
 </head>
 <body>
     
-    <div class="start_game" > 
+    <div class="start_game flex_center" > 
         <div class="start_game_container">
             <div class="start_game_flex">
                 <div class="start_game_title">
@@ -26,20 +25,20 @@
                 </div>
             </div>
             <div class="start_game_description">- First who Hit 5 Winns the GAME !</div>
-            <div class="start_game_btn">
+            <div class="start_game_btn flex_center">
                 <div>
                     Start The Game
                 </div>
             </div>
         </div>
     </div>
-    <div class="finall_result">
+    <div class="finall_result flex_center">
         <!-- Win Section -->
         <div class="finall_result_block winner_block" >
             <div class="finall_result_block_container win">
                 <div class="Win_block_one" style="position: relative;background-color: #fff;">
-                    <div class="Win_title">You Win !!</div>
-                    <div class="Win_logo">
+                    <div class="Win_title flex_center">You Win !!</div>
+                    <div class="Win_logo flex_center">
                         <img src="logo/balloons.png" alt="">
                     </div>
                     <div class="win_btn play_again_btn">
@@ -57,8 +56,6 @@
                 </div>
             </div>
         </div>
-
-
         <!-- Lose Section -->
         <div class="finall_result_block loser_block" >
             <div class="finall_result_block_container lose">
@@ -70,17 +67,17 @@
                     </div>
                 </div>
                 <div class="finall_result_lost_right">
-                    <div class="lose_logo">
+                    <div class="lose_logo flex_center">
                         <img src="logo/cry.png" alt="">
                     </div>
-                    <div class="play_again_btn">
+                    <div class="play_again_btn flex_center">
                         <div class="play_again_botton">Play Again</div>
-                        <!-- <span class="play_again_desc">
+                        <span class="play_again_desc flex_center">
                             Try Win this time please 
                             <span class="sad_emojy">
                                 <img src="logo/emojy_sad.png" alt="">
                             </span>
-                        </span> -->
+                        </span>
                     </div>
                 </div>
             </div>
@@ -98,7 +95,7 @@
         </audio>
 
         <div class="up_container" style="position: relative;">
-            <div class="sub_result">
+            <div class="sub_result flex_center">
                 <div class="Win">You Win</div>
                 <div class="Lose">You Lost</div>
                 <div class="Tie">Tie ! </div>
@@ -123,22 +120,22 @@
                 <div class="user_logo">
                     <img src="logo/avatar.png" alt="">
                 </div>
-                <div class="user_score">
+                <div class="user_score flex_center">
                     0
                 </div>
             </div>
             <div class="computer" style="position: relative;">
-                <div class="computer_choise" style="position: absolute;">
+                <div class="computer_choise flex_center" style="position: absolute;">
                     <img src="" alt="">
                 </div>
                 <div class="computer_logo">
                     <img src="logo/robot.png" alt="">
                 </div>
-                <div class="computer_score">0</div>
+                <div class="computer_score flex_center">0</div>
             </div>
         </div>
 
-        <div class="rps_writer"></div>
+        <div class="rps_writer flex_center"></div>
         <div class="choises">
             <div class="rock btn">
                 <img data-value="Rock" src="logo/stone.png" alt="">

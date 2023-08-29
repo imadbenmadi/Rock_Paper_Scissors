@@ -2,11 +2,6 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    /* background: rgb(255, 0, 0); */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-   
 }
 /* the Lost Section  */
 .finall_result_block{
@@ -33,7 +28,6 @@
 }
 .finall_result_lost_right{
     flex: 35%;
-
 }
 .lose_text_title{
     font-size: 4em;
@@ -44,21 +38,11 @@
     font-size: 1.15em;
     font-weight: bold;
 }
-
-
 /* the right Side  */
-.lose_logo{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 .lose_text_desc {
     text-align: center;
 }
 .play_again_btn{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
     margin-top: 25px
 }
@@ -74,9 +58,6 @@
 .play_again_desc{
     font-size: 1.1em;
     font-weight: bold;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 .sad_emojy{
     margin: 5px;
@@ -89,7 +70,6 @@
 
 .robots_destroy_logo img {
     width: 150px;
-
 }
 .lose_logo img {
     width: 100px;
@@ -100,12 +80,9 @@
     flex-direction: column;
 }
 .win_btn  {
-    
     position: absolute;
     bottom: -100px;
     right: 130px;
-
-
 }
 .win_btn div{
     background-color: rgb(0, 255, 0);
@@ -120,18 +97,12 @@
 }
 .Win_title{
     flex: 35%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     font-size: 3.5em;
     font-family: 'Sedgwick Ave Display', cursive;
     text-align: center;
 }
 .Win_logo{
     flex: 65%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 .Win_logo img{
     width: 250px;

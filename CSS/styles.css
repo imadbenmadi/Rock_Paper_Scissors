@@ -8,6 +8,11 @@ body{
     -webkit-tap-highlight-color: transparent;
     transition: background-color 0.2s ease;
 }
+.flex_center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .night_mood{
     background-color: rgb(0, 0, 0);
 }
@@ -26,9 +31,6 @@ body{
     transform: translateX(-50%);
     top: 15%;
     border-radius: 25px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     font-size: 2em;
     font-weight: 600;
     color: white;
@@ -64,60 +66,34 @@ body{
     height: 5vh;
     font-size: 2.5em;
     font-weight: 600;
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
 }
 
 
 
-.music{
-    /* display: flex; */
-    
+.music ,.mood{
     margin: 15px;
 }
-.music img {
+.music img ,.mood img{
     width: 40px;
     cursor: pointer;
 }
 .off{
     display: none;
 }
-.mood{
-    
-    margin: 15px;
-}
-.mood img{
-    cursor: pointer;
-    width: 40px;
-}
-
-
-
-
-
 
 .user_logo img , .computer_logo img{
     width: 150px;
-    
     transition: transform 0.4s ease;
 }
 .hero_img_scale{
     transform: translateY(-20px);
 }
 .user_score , .computer_score{
-    
     width: 100px;
     height: 100px;
     margin: auto;
     border-radius: 25px;
     background-color: rgb(230, 240, 255);
-    /* margin-top: 20px; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
     font-size: 40px;
     font-weight: 600;
 }
@@ -126,9 +102,6 @@ body{
     height: 70px;
     background-color: aliceblue;
     border-radius: 15px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     right: -55px;
     top: 5px;
 }
@@ -136,11 +109,6 @@ body{
     width: 45px;
     height: 45px;
 }
-
-
-
-
-
 .choises{
     display: flex;
     justify-content: center;
@@ -157,15 +125,7 @@ body{
 }
 
 
-
-
-
-
-
-
 /* Media Querieys */
-
-
 /* the start section */
 @media (max-width: 561px) {
     .start_game_title{
@@ -237,6 +197,3 @@ body{
         width: 100px;
     }
 }
-
-
-
