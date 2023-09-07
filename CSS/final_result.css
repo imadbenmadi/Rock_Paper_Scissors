@@ -1,7 +1,7 @@
 .finall_result{
     position: absolute;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
 }
 /* the Lost Section  */
 .finall_result_block{

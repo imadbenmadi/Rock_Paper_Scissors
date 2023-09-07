@@ -8,12 +8,20 @@
     <link rel="stylesheet" href="CSS/final_result.css">
     <link rel="stylesheet" href="CSS/start_game.css">
     <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="CSS/loading.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
     </style>
 </head>
-<body>
-    
+<body style="position: relative;">
+    <div class="loading_section flex_center">
+        <div class="lds-ring">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
     <div class="start_game flex_center" > 
         <div class="start_game_container">
             <div class="start_game_flex">
@@ -32,7 +40,9 @@
             </div>
         </div>
     </div>
-    <div class="finall_result flex_center">
+
+
+    <div class="finall_result flex_center" >
         <!-- Win Section -->
         <div class="finall_result_block winner_block" >
             <div class="finall_result_block_container win">
@@ -83,6 +93,8 @@
             </div>
         </div>
     </div>
+
+
     <div class="game" >
         <audio id="bg-music" preload="auto" loop>
             <source src="music/bg_music.mp3" type="audio/mpeg">

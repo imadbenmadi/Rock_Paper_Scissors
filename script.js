@@ -1,6 +1,7 @@
 let main_section = document.querySelector(".game");
 let start_section = document.querySelector(".start_game");
 let final_section = document.querySelector(".finall_result");
+let loading_section = document.querySelector(".loading_section");
 
 let user_img = document.querySelector(".user_logo img");
 let computer_img = document.querySelector(".computer_logo img");
@@ -25,9 +26,22 @@ let computerChoise_img = document.querySelector(".computer_choise img")
 let cmputer_choise_img_source = "logo/question-mark.png"; //default
 computerChoise_img.setAttribute("src",cmputer_choise_img_source)  
 
+
+
+start_section.style.display = "none";
+final_section.style.display = "none";
+main_section.style.display = "none";
 window.addEventListener("load", function () {
+    // hide the loading section 
+    loading_section.style.display = "none"
+    start_section.style.display = "flex"
+    
+
   const logo = document.querySelector(".start_game_logo img");
-  logo.classList.add("show-logo");
+    setTimeout(() => {
+        logo.classList.add("show-logo");
+      
+  },500)
 });
 
 
@@ -37,7 +51,7 @@ final_section.style.display = "none";
 document.querySelector(".start_game_btn div").addEventListener("click",()=>{
     start_section.style.display = "none";
     main_section.style.display = "block";
-    bgMusic.play();
+    // bgMusic.play();
     handle_rps_writer();
 });
 
